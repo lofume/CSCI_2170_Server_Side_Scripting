@@ -1,0 +1,59 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+header {
+	background-color: steelblue;
+	color: white;
+	text-align: center;
+	padding: 0.5em 0 0 0;
+}
+header a {
+	color: yellow;
+	text-decoration: none;
+}
+header nav {
+	background-color: black;
+}
+header nav > h2,
+header nav > ul,
+header li {
+	display: inline-block;
+	padding: 0px 10px;
+}
+#featured-news h2,
+#featured-news h3,
+#featured-news h4 {
+	text-align: center;
+}
+#featured-news {
+	overflow: auto;
+}
+#f-news1 {
+	width: 48%;
+	float: left;
+	margin-right: 5px;
+}
+#f-news2 {
+	width: 48%;
+	float: left;
+	margin-left: 5px;
+}
+img {
+	float: right;
+	width: 400px;
+	margin-right: 10px;
+}
+main {
+	width: 80vw;
+	margin: 0 auto;
+}
+footer {
+	background-color: black;
+	color: white;
+	height: 100px;
+}
+footer p {
+	padding-left: 0.5em;
+	line-height: 100px;
+	vertical-align: middle;
+}
