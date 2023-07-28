@@ -1,0 +1,137 @@
+/*
+	* @file: 	style.css
+	* 
+	* @author: 	Raghav V. Sampangi (raghav@cs.dal.ca)
+	* 
+	* @desc:	This file styles the list in its current form.
+	* 
+	* @notes:	As a student working on A3 in CSCI 2170, you are allowed to edit this file. 
+	* 			When you edit, include block comments to summarize changes. 
+	* 			Clearly highlight the styles and how they impact various sections of the website.
+*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 80vw;
+	min-width: 800px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h3 {
+	color: #2d3436;
+}
+p, li, label {
+	color:#636e72;
+}
+
+header {
+	background-color: #0984e3;
+	color: white;
+	height: 100px;
+	line-height: 100px;
+	vertical-align: middle;
+	padding: 1em;
+}
+header > h1 {
+	margin: 0;
+	padding: 0;
+}
+
+nav#primary-nav > p{
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+
+}
+nav#temp-login-nav{
+	text-align: center;
+
+}
+nav#primary-nav {
+	padding: 1em;
+	background-color: black;
+	display: block;
+	flex-direction: column;
+}
+
+nav#primary-nav > a {
+	font-weight: bold;
+	text-decoration: none;
+}
+nav#primary-nav > a:link,
+nav#primary-nav > a:visited {
+	color: white;
+	
+}
+nav#primary-nav > a:default,
+nav#primary-nav > a:active {
+	color: gold;
+	
+	
+}
+/* made the function to output on different lines */
+nav#weHome{
+	min-height: 0em;
+	padding: 1em;
+	background-color: black;
+}
+nav#weHome > a {
+	font-weight: bold;
+	text-decoration: none;
+}
+nav#weHome > a:link,
+nav#weHome > a:visited {
+	color: white;
+	
+}
+nav#weHome > a:default,
+nav#weHome > a:active {
+	color: gold;
+	
+	
+}
+
+
+footer {
+	border-top: 1px solid gold;
+	color: #636e72;
+	height: 3em;
+	padding: 1em;
+}
+
+main {
+	min-height: 60vh;
+	width: 50vw;
+	min-width: 500px;
+	margin: 3em auto;
+}
+
+form#form-flex-container {
+	display: flex;
+	flex-direction: column;
+}
+
+form input {
+	align-items: stretch;
+	height: 30px;
+	margin: 10px 0px;
+	
+}
+form p{
+	color: red;
+	margin: 0px;
+}
+
+
+
+section#list-container {
+	margin: 2em 0;
+}
+
+/* Style to mark a list item as complete */
+.complete {
+	text-decoration: line-through;
+	font-style: italic;
+}
+
