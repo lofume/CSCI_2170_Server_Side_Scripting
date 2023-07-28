@@ -1,0 +1,73 @@
+/* 
+ * Main CSS file for Assignment 2 in CSCI 2170, Fall 2021
+ * Author: Raghav V. Sampangi (raghav@cs.dal.ca)
+ * Date: 21 September 2021
+ */
+
+/* Common body properties to be inherited by elements on the page */
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 80vw;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Common padding for main containers of the page */
+header, main, footer {
+	padding: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	
+}
+
+/* Header/banner styles, to set the background and other properties for content elements in the page banner, including styling for the navigation links */
+header.banner {
+	color:#0984e3;
+	border-bottom: 10px solid gold;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+
+/* Footer styles */
+footer.pg-footer {
+	font-size: smaller;
+	border-top: 1px solid steelblue;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #636e72;
+	margin: 4em 0 0 0;
+}
+footer.pg-footer p {
+	padding: 1.5em 0;
+}
+#search-form{
+	text-align: center;
+
+}
+#homepg-banner{
+	color: #74b9ff;
+	font-style: normal;
+}
+
+#sf-keywords{
+	height: auto;
+	width: 800;
+	text-align: center;
+	font-size: 18pt;
+}
+
+.submit {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #b2bec3;
+	width: auto;
+  }
+
+#drop-down-menu{
+	color: #b2bec3;
+}
+
+/*
+ * 	For search results styling, I have used colours from the following website:
+ *	https://flatuicolors.com/palette/us 
+ */
