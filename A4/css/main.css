@@ -1,0 +1,81 @@
+/*
+	* @file: 	style.css
+	* 
+	* @author: 	Raghav V. Sampangi (raghav@cs.dal.ca)
+	* 
+	* @desc:	This file styles the list in its current form.
+	* 
+	* @notes:	As a student working on A3 in CSCI 2170, you are allowed to edit this file. 
+	* 			When you edit, include block comments to summarize changes. 
+	* 			Clearly highlight the styles and how they impact various sections of the website.
+*/
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 80vw;
+	min-width: 800px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h3 {
+	color: #2d3436;
+}
+h2 {
+	color: steelblue;
+	text-align: center;
+}
+p, li, label {
+	color:#636e72;
+}
+
+header {
+	background-color: #0984e3;
+	color: white;
+	height: 100px;
+	line-height: 100px;
+	vertical-align: middle;
+	padding: 1em;
+}
+header > h1 {
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-decoration: none;
+}
+.homepg-banner{
+	color: white;
+}
+
+.login-form{
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	display: inline-flexbox;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+.login-button{
+	color: white;
+	background-color: steelblue;
+	padding: 1em;
+	text-align: center;
+
+}
+
+
+	
+
+
+
+
+footer {
+	border-top: 1px solid gold;
+	color: #636e72;
+	height: 3em;
+	padding: 1em;
+}
+
+
